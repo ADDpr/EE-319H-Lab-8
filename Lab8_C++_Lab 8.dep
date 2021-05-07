@@ -1,0 +1,35 @@
+Dependencies for Project 'Lab8_C++', Target 'Lab 8': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_TM4C123.s)(0x5ABC37AC)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.cpp)(0x6078822D)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+I (PLL.h)(0x5ABBEF9A)
+I (SSD1306.h)(0x5FFDB6B2)
+I (TExaS.h)(0x5FFD0934)
+I (SlidePot.h)(0x600496F2)
+I (print.h)(0x5FFD08AA)
+F (.\PLL.cpp)(0x5A9E1EDA)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (PLL.h)(0x5ABBEF9A)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\SlidePot.cpp)(0x6078823B)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\slidepot.o --omf_browse .\slidepot.crf --depend .\slidepot.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (SlidePot.h)(0x600496F2)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\TExaS.cpp)(0x600497A2)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x5FFD0934)
+I (PLL.h)(0x5ABBEF9A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\print.s)(0x60049CA2)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\I2C3.cpp)(0x5FF7C1E8)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\i2c3.o --omf_browse .\i2c3.crf --depend .\i2c3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (../inc/I2C3.h)(0x5FF09D24)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\SSD1306.cpp)(0x5FFDD7C8)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Lab_8-IC:\Users\adois\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\adois\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\ssd1306.o --omf_browse .\ssd1306.crf --depend .\ssd1306.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EF392)
+I (SSD1306.h)(0x5FFDB6B2)
+I (../inc/CortexM.h)(0x5FF5FBA8)
+I (I2C3.h)(0x5FF09D24)
